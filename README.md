@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This is a sample todo app implement using Clean Architecture from [Robert C](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
+Created this project by following this [article](https://dev.to/devtronic/german-clean-architecture-in-einem-typescript-projekt-1-2-3lna). 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
