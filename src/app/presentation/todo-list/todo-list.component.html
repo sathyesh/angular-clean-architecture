@@ -1,0 +1,11 @@
+<button (click)='addToDo()'>Aufgabe hinzufügen</button>
+<ul>
+  <li *ngFor='let todo of presenter.viewModel.toDos; index as id'>
+    <label>
+      <input type='checkbox' [checked]='todo.isDone' (change)='setToDoState(id, todo)'>
+      {{ todo.description }}
+    </label>
+    <button (click)='editToDo(id, todo)'>Edit</button>
+    <button (click)='deleteToDo(id)'>Delete</button>
+  </li>
+</ul>
